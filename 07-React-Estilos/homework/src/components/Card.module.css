@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    width: 300px;
+    height: 260px;
+    border-radius: 8px;
+    box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    background-color: rgb(241, 241, 241);
+    flex-direction: column;
+    position: relative;
+}
+
+.container h3{
+    padding: 10px;
+}
+
+.infoCont{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardBtn{
+    height: min-content;
+    width: min-content;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border-radius: 6px;
+    background-color: rgb(214, 83, 83);
+    color: aliceblue;
+    border: none;
+}
+
+.cardBtn:hover{
+    background-color: rgb(184, 16, 16);
+}
+
+img{
+    height: min-content;
+    width: min-content;  
+    display: block;
+    margin: auto;
+    bottom: 5px;
+    position: relative;
+    background-color: rgb(199, 199, 199);
+    border-radius: 50%;
+    
+}
+

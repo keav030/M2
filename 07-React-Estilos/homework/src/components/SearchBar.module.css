@@ -1,0 +1,18 @@
+.btn{
+    border-radius: 6px;
+    background-color: rgb(114, 135, 230);
+    color: aliceblue;
+    border: none;
+    height: 40px;
+}
+
+.container input{
+    height: 40px;
+    border: none;
+    background-color: rgb(233, 233, 233);
+    border-radius: 6px;
+}
+
+.btn:hover{
+    background-color: rgb(104, 187, 241);
+}
