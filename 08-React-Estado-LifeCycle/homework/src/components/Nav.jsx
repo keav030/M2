@@ -10,7 +10,10 @@ function Nav({onSearch}) {
         <img src={Logo} alt="logoHenry" />
       </div>
       <h5>Henry Weather App</h5>
-      <SearchBar/>
+      <div className='searchBar'>
+        <SearchBar onSearch={onSearch}/>
+      </div>
+      
     </div>
   );
 };

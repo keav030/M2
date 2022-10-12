@@ -4,9 +4,22 @@
 
 .container{
   position: relative;
-  background-color: gray;
+  background-color: rgb(61, 59, 70);
   display: flex;
-  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
 }
 
+h5{
+  color: white;
+  text-align: center;
+}
 
+img{
+  padding: 5px;
+}
+
+.searchBar{
+  position: absolute;
+  right: 20px;
+}

@@ -3,3 +3,7 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.card-title{
+  color: rgb(5, 4, 80);
+}
